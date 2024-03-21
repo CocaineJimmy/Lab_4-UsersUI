@@ -1,4 +1,4 @@
-package ui.components
+package com.topic2.android.notes.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
