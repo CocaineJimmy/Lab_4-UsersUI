@@ -99,3 +99,19 @@ private fun ScreenNavigationButton(
         }
     }
 }
+
+@Preview
+@Composable
+fun ScreenNavigationButtonPreview() {
+    NotesTheme {
+        ScreenNavigationButton(
+            icon = Icons.Filled.Home,
+            label = "Заметки",
+            isSelected = true,
+            onClick = {}
+        )
+
+
+    }
+
+}
